@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BtmmenuCart"
+    android:background="@color/background_color">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/buktitrans"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Ahmad Juriyanto"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="50dp"
+                        android:text="22.20"
+                        android:textSize="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="70dp"
+                        android:text="IDR 200.000"
+                        android:textSize="20dp"
+                        android:textColor="#3fb647"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="118dp"
+                        android:layout_marginRight="118dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/button_decline"
+                        android:text="Decline"
+                        android:textColor="@color/light" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginRight="19dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/buttonshapebayar"
+                        android:text="Accept"
+                        android:textColor="@color/light" />
+
+                </RelativeLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/buktitrans"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="15dp"
+                        android:text="KH. kamaren"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="50dp"
+                        android:text="22.20"
+                        android:textSize="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="70dp"
+                        android:text="IDR 200.000"
+                        android:textSize="20dp"
+                        android:textColor="#3fb647"/>
+
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="118dp"
+                        android:layout_marginRight="118dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/button_decline"
+                        android:text="Decline"
+                        android:textColor="@color/light" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginRight="19dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/buttonshapebayar"
+                        android:text="Accept"
+                        android:textColor="@color/light" />
+
+                </RelativeLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/buktitrans"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="15dp"
+                        android:text="supranoto"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="50dp"
+                        android:text="22.20"
+                        android:textSize="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="70dp"
+                        android:text="IDR 200.000"
+                        android:textSize="20dp"
+                        android:textColor="#3fb647"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="118dp"
+                        android:layout_marginRight="118dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/button_decline"
+                        android:text="Decline"
+                        android:textColor="@color/light" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginRight="19dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/buttonshapebayar"
+                        android:text="Accept"
+                        android:textColor="@color/light" />
+
+                </RelativeLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/buktitrans"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="15dp"
+                        android:text="ponidi"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="50dp"
+                        android:text="22.20"
+                        android:textSize="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="70dp"
+                        android:text="IDR 200.000"
+                        android:textSize="20dp"
+                        android:textColor="#3fb647"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="118dp"
+                        android:layout_marginRight="118dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/button_decline"
+                        android:text="Decline"
+                        android:textColor="@color/light" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginRight="19dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/buttonshapebayar"
+                        android:text="Accept"
+                        android:textColor="@color/light" />
+
+                </RelativeLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/buktitrans"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="15dp"
+                        android:text="arfanio"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="50dp"
+                        android:text="22.20"
+                        android:textSize="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="70dp"
+                        android:text="IDR 200.000"
+                        android:textSize="20dp"
+                        android:textColor="#3fb647"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="118dp"
+                        android:layout_marginRight="118dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/button_decline"
+                        android:text="Decline"
+                        android:textColor="@color/light" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginRight="19dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/buttonshapebayar"
+                        android:text="Accept"
+                        android:textColor="@color/light" />
+
+                </RelativeLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/buktitrans"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="15dp"
+                        android:text="asep"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="50dp"
+                        android:text="22.20"
+                        android:textSize="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="70dp"
+                        android:text="IDR 200.000"
+                        android:textSize="20dp"
+                        android:textColor="#3fb647"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="118dp"
+                        android:layout_marginRight="118dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/button_decline"
+                        android:text="Decline"
+                        android:textColor="@color/light" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginRight="19dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/buttonshapebayar"
+                        android:text="Accept"
+                        android:textColor="@color/light" />
+
+                </RelativeLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/buktitrans"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="15dp"
+                        android:text="waluyo"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="50dp"
+                        android:text="22.20"
+                        android:textSize="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="70dp"
+                        android:text="IDR 200.000"
+                        android:textSize="20dp"
+                        android:textColor="#3fb647"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="118dp"
+                        android:layout_marginRight="118dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/button_decline"
+                        android:text="Decline"
+                        android:textColor="@color/light" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginRight="19dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/buttonshapebayar"
+                        android:text="Accept"
+                        android:textColor="@color/light" />
+
+                </RelativeLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/buktitrans"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="15dp"
+                        android:text="sulistyo"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="50dp"
+                        android:text="22.20"
+                        android:textSize="15dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="70dp"
+                        android:text="IDR 200.000"
+                        android:textSize="20dp"
+                        android:textColor="#3fb647"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="118dp"
+                        android:layout_marginRight="118dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/button_decline"
+                        android:text="Decline"
+                        android:textColor="@color/light" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="110dp"
+                        android:layout_marginEnd="19dp"
+                        android:layout_marginRight="19dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/buttonshapebayar"
+                        android:text="Accept"
+                        android:textColor="@color/light" />
+
+                </RelativeLayout>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</ScrollView>
